@@ -1,0 +1,16 @@
+.container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn.btn-primary{
+    width: 160px;
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+      flex-wrap: wrap;
+    }
+  }
